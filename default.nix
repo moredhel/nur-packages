@@ -14,9 +14,7 @@
   modules = import ./modules; # NixOS modules
   overlays = import ./overlays; # nixpkgs overlays
 
-  example-package = pkgs.callPackage ./pkgs/example-package { };
-  illum = pkgs.callPackage ./pkgs/illum { };
-  # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
-  # ...
+  kubectx = pkgs.callPackage ./pkgs/kubectx { };
+  haskellPackages.discord-haskell = pkgs.haskellPackages.callPackage ./pkgs/haskellPackages/discord-haskell.nix { };
 }
 
