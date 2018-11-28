@@ -14,7 +14,7 @@
   modules = import ./modules; # NixOS modules
   overlays = import ./overlays; # nixpkgs overlays
 
-  # kubectx = pkgs.callPackage ./pkgs/kubectx { };
+  kubectx = pkgs.callPackage ./pkgs/kubectx { };
   haskellPackages.discord-haskell = pkgs.haskellPackages.callPackage ./pkgs/haskellPackages/discord-haskell.nix { };
 }
 
