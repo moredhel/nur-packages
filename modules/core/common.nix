@@ -58,7 +58,7 @@ in
     syncthing = {
       enable = true;
       user = "moredhel";
-      # dataDir = "/etc/nixos/private/syncthing";
+      dataDir = "/home/moredhel/Syncthing";
       openDefaultPorts = true;
     };
   };
