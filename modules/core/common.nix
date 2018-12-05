@@ -44,7 +44,6 @@ in
     consoleKeyMap = "dvorak";
     defaultLocale = "en_US.UTF-8";
   };
-  time.timeZone = null;
 
   networking.firewall.enable = true;
 
