@@ -28,7 +28,7 @@ in
     enable = true;
     profiles = {
       org = {
-        src = "/home/moredhel/qcal5-ly4wi";
+        src = "/home/moredhel/org";
         dest = "/home/moredhel/keybase/private/moredhel/org";
         extraArgs = "-batch -watch -ui text -repeat 60 -fat";
       };
