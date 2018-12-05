@@ -21,6 +21,9 @@ in
     layout = "dvorak";
   };
 
+  services.syncthing.enable = true;
+  services.syncthing.tray = true;
+
   services.unison = {
     enable = true;
     profiles = {
