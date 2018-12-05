@@ -37,7 +37,6 @@ in
       k = "${kubectl}/bin/kubectl";
       ktx = "${kubectx}/bin/kubectx";
       kns = "${kubectx}/bin/kubens";
-      cat = "${pkgs.bat}/bin/bat";
     };
     enableAutojump = true;
   };

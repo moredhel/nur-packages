@@ -90,6 +90,9 @@ in
     browsers = ["firefox" "chromium"];
   };
 
+  programs.bash.shellAliases = {
+      cat = "${pkgs.bat}/bin/bat";
+  };
   programs.bash.initExtra = ''
       # Custom Editor
       EDITOR="emacsclient --socket /tmp/emacs1000/server -nw"
