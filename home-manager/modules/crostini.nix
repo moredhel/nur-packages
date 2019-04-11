@@ -12,7 +12,7 @@ in {
 
     docker = mkOption {
       type = bool;
-      default = true;
+      default = false;
     };
   };
 
