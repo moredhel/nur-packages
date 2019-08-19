@@ -15,7 +15,7 @@ rec {
   overlays = import ./overlays; # nixpkgs overlays
 
   hm = home-manager;
-  home-manager = hmModules
+  home-manager = hmModules;
   hmModules = rec {
     modules = pkgs.lib.attrValues rawModules;
     rawModules = import ./home-manager/modules;
